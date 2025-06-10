@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- HEADER SECTION -->
     <header class="header">
-      <nav id="navbar">
-        <ul>
-          <li><a href="#welcome-section">About</a></li>
-        </ul>
-      </nav>
+        <p class="web-name">Tenxis HomePage</p>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- WELCOME SECTION -->
     <section id="welcome-section" class="ctn">
-      <h1>Welcome, I'm Tenxis</h1>
-      <p>A software engineer who focus on full-stack development</p>
+        <div class="intro">
+            <h1>Welcome<span>, I'm Tenxis</span></h1>
+            <p>A software engineer who focus on full-stack development</p>
+        </div>
     </section>
     <!-- PROJECT SECTION -->
     <section id="projects" class="ctn">
-      <a class="project-tile"></a>
+        <div class="project-title">
+            <h2>Projects</h2>
+            <hr />
+            <p>These are my practice projects, please click to see it</p>
+        </div>
+        <div class="project">
+            <a class="project-tile"
+                href="https://github.com/Tenxis/Test-Data-Extract-Arknights/blob/main/operatordpsanalysis.ipynb">
+                <img src="https://i.postimg.cc/c1wBWmQC/3.jpg" alt="dps" />
+                <p><span class="code">< </span>mlynar vs wisadel<span class="code"> /></span></p>
+            </a>
+            <a class="project-tile"
+                href="https://github.com/Tenxis/Test-Data-Extract-Arknights/blob/main/operatordpsanalysis.ipynb">
+                <img src="https://i.postimg.cc/tJ33zqXW/2.jpg" alt="web" />
+                <p><span class="code">< </span>test website<span class="code"> /></span></p>
+            </a>
+            <a class="project-tile"
+                href="https://github.com/Tenxis/Test-Data-Extract-Arknights/blob/main/operatordpsanalysis.ipynb">
+                <img src="https://i.postimg.cc/WbS8TnVk/ew.jpg" alt="ew" />
+                <p><span class="code">< </span>wisadel website<span class="code"> /></span></p>
+            </a>
+        </div>
     </section>
     <!-- CONTACT SECTION -->
     <section id="contact" class="ctn">
-      <div class="contact-links">
-        <a id="profile-link" target="_blank" href="https://github.com/Tenxis">
-          <i class="fa fa-github"></i>
-           Github
-        </a>
-      </div>
+        <div class="contact-content">
+        <div class="contact-title">
+            <h2>Find me:</h2>
+        </div>
+        <div class="contact-links">
+            <a id="profile-link" target="_blank" href="https://github.com/Tenxis">
+                <i class="fa fa-github"></i>
+                Github
+            </a>
+            <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/zhouyang-he-a615a7290/">
+                <i class="fa fa-linkedin-square"></i>
+                Github
+            </a>
+        </div>
+        </div>
     </section>
-  </body>
+    <!-- FOOTER -->
+    <footer>
+        <p>**This website is hosted on Github.</p>
+    </footer>
+</body>
+
 </html>
