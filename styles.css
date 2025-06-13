@@ -167,7 +167,7 @@ hr{
     box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
     padding: 1rem;
     transition: transform 0.3s ease-out 0ms;
-    border:2px solid white;
+    /* border:2px solid white; */
 }
 
 .project-tile:hover{
@@ -179,14 +179,16 @@ hr{
     width:100%;
     height:80%;
     object-fit: cover;
-    margin-bottom: 1rem;
 }
 
 .project-tile p{
     color:rgb(168, 156, 156);
     font-size: large;
-    text-align: center;
     text-transform: capitalize;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-tile span{
@@ -261,7 +263,6 @@ footer p{
         font-size: 30px;
     }
     .project{
-        grid-template-columns: repeat(auto-fit,1fr);
         margin-bottom: 2rem;
     }
     
@@ -291,7 +292,6 @@ footer p{
         font-size: 25px;
     }
     .project{
-        grid-template-columns: repeat(auto-fit,1fr);
         margin-bottom: 2rem;
     }
     .contact-links a{
