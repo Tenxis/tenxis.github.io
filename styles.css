@@ -30,7 +30,7 @@ body{
 }
 
 #navbar {
-    width:70%;
+    width:80%;
     max-width: 400px;
 }
 
@@ -51,7 +51,7 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     color:burlywood;
-    padding: 1.5rem 4px;
+    padding: 1.5rem 3px;
     transition: background-color 0.2s ease-in;
 }
 
@@ -115,7 +115,7 @@ hr{
     color:rgb(209, 186, 155);
     width: 100%;
     text-align: center;
-    margin:1rem;
+    margin:1rem 0;
 }
 
 #welcome-section {
@@ -268,6 +268,15 @@ footer p{
         font-size: 30px;
 
     }
+    #projects{
+        gap:auto;
+    }
+    .project-title > h2{
+        font-size: 25px;
+    }
+    .project-tile{
+        padding: 1rem 0;
+    }
 }
 
 @media (max-width:500px){
@@ -286,6 +295,15 @@ footer p{
     .contact-title{
         font-size: 25px;
 
+    }
+    #projects{
+        gap:auto;
+    }
+    .project-title > h2{
+        font-size: 25px;
+    }
+    .project-tile{
+        padding: 1rem 0;
     }
 }
 
