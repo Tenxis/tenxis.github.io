@@ -30,7 +30,7 @@ body{
 }
 
 #navbar {
-    width:50%;
+    width:70%;
     max-width: 400px;
 }
 
@@ -42,7 +42,7 @@ body{
 }
 
 .web-name {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: lightgray;
 }
 
@@ -67,7 +67,7 @@ body{
 
 .ctn {
     margin-top:var(--top-space);  
-    width:70%;
+    width:80%;
     height:calc(110vh - var(--top-space));
     /* border:2px solid white; */
     margin-left: auto;
@@ -256,6 +256,36 @@ footer p{
     }
     .web-name {
         font-size: 30px;
+    }
+    .project{
+        grid-template-columns: repeat(auto-fit,1fr);
+    }
+    
+    .contact-links a{
+        font-size: 30px;
+    }
+    .contact-title{
+        font-size: 30px;
+
+    }
+}
+
+@media (max-width:500px){
+    #welcome-section {
+        font-size:20px;
+    }
+    .web-name {
+        font-size: 25px;
+    }
+    .project{
+        grid-template-columns: repeat(auto-fit,1fr);
+    }
+    .contact-links a{
+        font-size: 25px;
+    }
+    .contact-title{
+        font-size: 25px;
+
     }
 }
 
