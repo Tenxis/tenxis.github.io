@@ -269,7 +269,7 @@ footer p{
 
     }
     #projects{
-        gap:auto;
+        padding:0.5rem 4px;
     }
     .project-title > h2{
         font-size: 25px;
@@ -297,7 +297,7 @@ footer p{
 
     }
     #projects{
-        gap:auto;
+        padding:0.5rem 4px;
     }
     .project-title > h2{
         font-size: 25px;
