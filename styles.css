@@ -153,7 +153,7 @@ hr{
 
 .project{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
     gap: 2rem;
     width:100%;
     max-width: 1280px;
@@ -167,6 +167,7 @@ hr{
     box-shadow: 1px 2px 2px rgb(0,0,0,0.5);
     padding: 1rem;
     transition: transform 0.3s ease-out 0ms;
+    border:2px solid white;
 }
 
 .project-tile:hover{
@@ -178,11 +179,12 @@ hr{
     width:100%;
     height:80%;
     object-fit: cover;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .project-tile p{
     color:rgb(168, 156, 156);
+    font-size: large;
     text-align: center;
     text-transform: capitalize;
 }
